@@ -18,8 +18,8 @@ jobs:
         run: git clone -b main --depth=1 https://github.com/takagen99/Box.git
       - name: DIY
         run: |
-          chmod +x diy-J.sh
-          bash ${{ github.workspace }}/diy-J.sh
+          chmod +x diy-JJ.sh
+          bash ${{ github.workspace }}/diy-JJ.sh
       - name: Build With Gradle
         run: |
           num=$(find ${{ github.workspace }} -name gradlew  | awk -F"/" '{print NF-1}')
