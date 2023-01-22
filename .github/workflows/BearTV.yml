@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Clone Project
-        run: git clone -b main --depth=1 name: TVBox-J Build
+        run: git clone -b main --depth=1 name: BearTV Build
 
 on:
 #  push:
